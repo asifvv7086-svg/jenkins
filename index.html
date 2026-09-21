@@ -3,40 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
 
-    <!-- Link CSS -->
+    <title>DriveLux | Premium Car Rentals</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>Simple HTML and CSS webpage</p>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            Drive<span>Lux</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#cars">Cars</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#cars" class="nav-btn">Book a Car</a>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
 
-    <main>
-        <section class="hero">
-            <h2>Hello, I'm Asif</h2>
-            <p>
-                Welcome to my website. This is a simple webpage
-                created using HTML and CSS.
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="tagline">PREMIUM CAR RENTALS</p>
+
+            <h1>
+                Drive Your
+                <span>Dream Car.</span>
+            </h1>
+
+            <p class="hero-text">
+                Experience premium cars, flexible rentals and
+                exceptional service. Your journey starts here.
             </p>
 
-            <button>Learn More</button>
-        </section>
-    </main>
+            <div class="hero-buttons">
+                <a href="#cars" class="primary-btn">
+                    Explore Cars →
+                </a>
 
+                <a href="#contact" class="secondary-btn">
+                    Contact Us
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+            <div class="car-icon">🚘</div>
+            <h3>Premium Fleet</h3>
+            <p>Luxury • Comfort • Performance</p>
+        </div>
+
+    </section>
+
+
+    <!-- Cars Section -->
+    <section class="cars-section" id="cars">
+
+        <div class="section-heading">
+            <p>OUR COLLECTION</p>
+            <h2>Choose Your Ride</h2>
+            <span>
+                Select from our collection of premium and reliable vehicles.
+            </span>
+        </div>
+
+        <div class="car-grid">
+
+            <div class="car-card">
+
+                <div class="car-image">🚗</div>
+
+                <div class="car-info">
+                    <p class="category">SEDAN</p>
+                    <h3>Executive Sedan</h3>
+
+                    <div class="features">
+                        <span>👤 5 Seats</span>
+                        <span>⚙ Automatic</span>
+                    </div>
+
+                    <div class="price">
+                        <strong>₹2,499</strong>
+                        <span>/ day</span>
+                    </div>
+
+                    <button>Rent Now</button>
+                </div>
+
+            </div>
+
+
+            <div class="car-card featured">
+
+                <div class="popular">POPULAR</div>
+
+                <div class="car-image">🚙</div>
+
+                <div class="car-info">
+                    <p class="category">SUV</p>
+                    <h3>Premium SUV</h3>
+
+                    <div class="features">
+                        <span>👤 7 Seats</span>
+                        <span>⚙ Automatic</span>
+                    </div>
+
+                    <div class="price">
+                        <strong>₹3,499</strong>
+                        <span>/ day</span>
+                    </div>
+
+                    <button>Rent Now</button>
+                </div>
+
+            </div>
+
+
+            <div class="car-card">
+
+                <div class="car-image">🏎️</div>
+
+                <div class="car-info">
+                    <p class="category">LUXURY</p>
+                    <h3>Luxury Sport</h3>
+
+                    <div class="features">
+                        <span>👤 2 Seats</span>
+                        <span>⚙ Automatic</span>
+                    </div>
+
+                    <div class="price">
+                        <strong>₹5,999</strong>
+                        <span>/ day</span>
+                    </div>
+
+                    <button>Rent Now</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+    <section class="services" id="services">
+
+        <div class="section-heading">
+            <p>WHY DRIVELUX</p>
+            <h2>Simple. Premium. Reliable.</h2>
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service">
+                <div class="service-icon">🚘</div>
+                <h3>Premium Cars</h3>
+                <p>
+                    Carefully maintained vehicles for a
+                    comfortable driving experience.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-icon">🔑</div>
+                <h3>Easy Booking</h3>
+                <p>
+                    Book your preferred car quickly with
+                    our simple rental process.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-icon">🛡️</div>
+                <h3>Safe & Reliable</h3>
+                <p>
+                    Your safety and satisfaction are our
+                    top priorities.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div>
+            <p class="tagline">ABOUT DRIVELUX</p>
+
+            <h2>
+                Your journey,
+                <span>our commitment.</span>
+            </h2>
+        </div>
+
+        <p>
+            DriveLux provides premium car rental services for
+            business trips, family journeys, vacations and special
+            occasions. We combine quality vehicles with simple
+            booking and reliable customer service.
+        </p>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <div class="contact-box">
+
+            <p class="tagline">GET IN TOUCH</p>
+
+            <h2>Ready to hit the road?</h2>
+
+            <p>
+                Contact us today and find the perfect car
+                for your next journey.
+            </p>
+
+            <a href="mailto:info@drivelux.com" class="primary-btn">
+                Contact Us →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
     <footer>
-        <p>© 2026 My Website. All rights reserved.</p>
+
+        <div class="footer-logo">
+            Drive<span>Lux</span>
+        </div>
+
+        <p>© 2026 DriveLux. All rights reserved.</p>
+
     </footer>
 
 </body>
